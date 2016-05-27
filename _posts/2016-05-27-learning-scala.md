@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2016-05-27 22:02:00 -0400
+title:  "Welcome to Scala: an anticipated learning affair"
+date:   2016-05-27 05:35:00 -0400
 categories: Learn Scala Programming
 ---
 Yesterday I pulled together ambition and enthusiasm to learn [The Scala Programming Language](http://www.scala-lang.org). This particular interest has evaded for me quite sometime. A couple years ago I was hedging my practice of over-committing my time resources and spreading myself too thin by questioning the long-term value of playing around with what was a much younger and more debated framework. And over the past year I've moved to a new city, started a new job, got married, moved 3 times and focused the majority of my educational efforts on personal campaigns such as becoming a Certified Scrum Master, learning the softer skills behind Project and Product Management, reading a few books on building and designing products and services from a strategic consulting perspective, and picking up some hard skills with management software - such as [JIRA](http://www.atlassian.com/jira) - and the awesome design software [Sketch](https://www.sketchapp.com).
