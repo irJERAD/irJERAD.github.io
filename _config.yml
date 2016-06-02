@@ -1,23 +1,44 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 title: Internet of Me
-email: ir@Jerad.xyz
 description: > # this means to ignore newlines until "baseurl:"
   A place to reference, recite, rinse and repeat my
   efforts, failures, thoughts and progress, delusions and regressions,
   but mostly a sandbox for whoever I am at the moment.
   Perhaps I'll occasionally enjoy the reminiscing with the castles or
   taking census of the endless games of tic-tac-toe etched in my box.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://Jerad.xyz" # the base hostname & protocol for your site
-twitter_username: irJERAD
-github_username:  irJERAD
+baseurl: '/jekyll-uno/'
+url: 'http://Jerad.xyz'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+
+author:
+  name: 'Jerad Acosta'
+  email: ir@Jerad.XYZ
+  twitter_username: irJERAD
+  facebook_username: JeradAcosta
+  github_username:  irJERAD
+  linkedin_username:  JeradAcosta
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
 
 # Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
 markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
