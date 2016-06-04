@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Scala: an anticipated learning affair"
+title:  "Welcome to iOS with Swift: YALA (Yet Another Learning Affair)"
 date:   2016-06-04 02:15:00 -0400
 categories: Learn, iOS, App, Application, Development
 
