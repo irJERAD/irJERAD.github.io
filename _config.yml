@@ -1,9 +1,9 @@
 # Site settings
 title: Josh Gerdes
 description: 'Founder of Lost Leaf Studio, developer, consultant, cyclist, soccer fan, nature enthusiast and lover of beer.'
-url: 'http://joshgerdes.com' 
+url: 'http://jerad.xyz' 
 baseurl: '/'
-google_analytics: 'UA-501066-1'
+#google_analytics:
 # disqus_shortname: 'your-disqus-name'
 
 author:
