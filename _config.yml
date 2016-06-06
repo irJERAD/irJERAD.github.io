@@ -1,18 +1,23 @@
 # Site settings
-title: Josh Gerdes
-description: 'Founder of Lost Leaf Studio, developer, consultant, cyclist, soccer fan, nature enthusiast and lover of beer.'
-url: 'http://jerad.xyz' 
-baseurl: '/'
-#google_analytics:
-# disqus_shortname: 'your-disqus-name'
+title: Internet of Me
+description: > # this means to ignore newlines until "baseurl:"
+  A place to reference, recite, rinse and repeat my
+  efforts, failures, thoughts and progress, delusions and regressions,
+  but mostly a sandbox for whoever I am at the moment.
+  Perhaps I'll occasionally enjoy the reminiscing with the castles or
+  taking census of the endless games of tic-tac-toe etched in my box.
+baseurl: '/jekyll-uno/'
+url: 'http://Jerad.xyz'
+# google_analytics: 'UA-XXXXXX-X'
+disqus_shortname: 'jeradxyz'
 
 author:
-  name: 'Josh Gerdes'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  # facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  name: 'Jerad Acosta'
+  email: ir@Jerad.XYZ
+  twitter_username: irJERAD
+  facebook_username: JeradAcosta
+  github_username:  irJERAD
+  linkedin_username:  JeradAcosta
 
 defaults:
   -
@@ -30,11 +35,10 @@ markdown: kramdown
 highlighter: rouge
 
 kramdown:
-  syntax_highlighter: rouge
   # use Github Flavored Markdown
   input: GFM
   # do not replace newlines by <br>s
   hard_wrap: false
 
 gems: ['jekyll-paginate']
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'src']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']

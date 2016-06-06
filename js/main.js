@@ -1,7 +1,5 @@
 ---
 layout: null
-sitemap:
-  exclude: 'yes'
 ---
 $(document).ready(function () {
   $('a.blog-button').click(function (e) {
