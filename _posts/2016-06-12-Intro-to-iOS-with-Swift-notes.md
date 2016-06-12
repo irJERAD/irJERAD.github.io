@@ -18,9 +18,11 @@ To see the code developed while building the project and taking the course, see 
 
 ---
 
-**Lesson 1 - Introduction to Xcode**
+## Lesson 1 - Introduction to Xcode
+
 ***
-**Lesson 2 - AutoLayout and Buttons**
+
+## Lesson 2 - AutoLayout and Buttons
 
 Constraints
 
@@ -82,7 +84,7 @@ Changing the text of a UIElement requires the code to do something to a UIElemen
 
 ***
 
-**Lesson 3 - ViewController and Multiple Views**
+## Lesson 3 - ViewController and Multiple Views
 
 Hot Key for Documentation:
 
@@ -106,7 +108,7 @@ Now we have UIElements that we have wired up to code with IBActions. We can reac
 
 Next we want to build multiple views so we can go between two different view controllers. No more single view applications. Most iOS apps have multiple view controllers.
 
-**Multiple Views**
+### Multiple Views
 
 The initial View Controller is the root view for the app. This is called the Root View Controller.
 
@@ -128,7 +130,7 @@ a **Segue** is what takes you from one view to another. In our example, we use t
 
 ***
 
-**Lesson 4 - Delegation and Recording**
+## Lesson 4 - Delegation and Recording
 
 Our Pitch Perfect iOS app sits on top of the stack. The actual hardware that records audio - like an iPhones microphone - and plays the audio back - like an iPhones internal speakers - are at the button of the technology stack.
 
@@ -140,11 +142,13 @@ AVAudioEngine library allows us to easily traverse all these levels in the iOS t
 
 <img src = "/images/iOSwithSwift/TechStackAVAudioEngine.png">
 
-**sharedInstance** - AVAudioSession.sharedInstance()
+#### sharedInstance
+i.e. AVAudioSession.sharedInstance()
 
 There can only be a single instance of the AVAudioSession object. That is because there is only a single piece of audio hardware for this session to run. Object like these - usually found in the Cocoa Touch libraries - are called shared instances because you are asking to share the phone’s single instance of this resource.
 
-**Delegation Basics** - Delegation can be thought of just as you would with a manager to a team or a parent to a child. Work is delegated from one object to another.
+### Delegation Basics
+A Delegation can be thought of just as you would with a manager to a team or a parent to a child. Work is delegated from one object to another.
 
 AVAudioRecorder can access and record with a devices internal audio equipment. AVAudioRecorder does not have an understanding of files, folders and other necessarily frameworks having to do with what to do with a file after something has been recorded. The AVAudioRecorder has no concept for a ViewController and really does not even know about our application (remember: this is a sharedInstance object so it has other core features that have nothing to do with applications and it is only through sharing this single instance that applications are able to reach and use a devices audio hardware).
 
@@ -164,4 +168,4 @@ Delegation allows one class to do the work for another. The class kn
 
 ***
 
-**Lesson 5 - Playback and Effects**
+## Lesson 5 - Playback and Effects
