@@ -7,7 +7,8 @@ tags: [HTML, CSS, Front End, Dev, Development]
 
 ---
 
-A Cat Photo App page made while going through some front end development exercises at [freeCodeCamp](https://freecodecamp.com)
+A Cat Photo App page made while going through some front end development exercises at
+[freeCodeCamp](https://freecodecamp.com)
 
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 <style>
