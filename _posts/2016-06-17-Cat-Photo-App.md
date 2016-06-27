@@ -26,12 +26,12 @@ A Cat Photo App page made while going through some front end development exercis
     font-family: Monospace;
   }
 
-  .iphone-outline {
+  <!-- .iphone-outline {
     border-color: black;
     border-width: 50px;
     width: 337px;
     height: 667px;
-  }
+  } -->
 
   .thick-green-border {
     border-color: green;
@@ -44,7 +44,7 @@ A Cat Photo App page made while going through some front end development exercis
     width: 100px;
   }
 </style>
-<div class ="iphone-outline">
+<!-- <div class ="iphone-outline"> -->
   <h2 class="red-text">CatPhotoApp</h2>
 
   <p>Click here for <a href="#">cat photos</a>.</p>
@@ -53,7 +53,7 @@ A Cat Photo App page made while going through some front end development exercis
 
   <p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
   <p class="red-text">Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
-</div>
+<!-- </div> -->
 
 ***
 
