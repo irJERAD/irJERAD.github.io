@@ -26,7 +26,7 @@ A Cat Photo App page made while going through some front end development exercis
     font-family: Monospace;
   }
 
-  .iphone-outline{
+  .iphone-outline {
     border-color: black;
     border-width: 50px;
     width: 337px;
@@ -45,14 +45,14 @@ A Cat Photo App page made while going through some front end development exercis
   }
 </style>
 <div class ="iphone-outline">
-<h2 class="red-text">CatPhotoApp</h2>
+  <h2 class="red-text">CatPhotoApp</h2>
 
-<p>Click here for <a href="#">cat photos</a>.</p>
+  <p>Click here for <a href="#">cat photos</a>.</p>
 
-<a href="#"><img class="smaller-image thick-green-border" alt="A cute orange cat lying on its back" src="https://bit.ly/fcc-relaxing-cat"></a>
+  <a href="#"><img class="smaller-image thick-green-border" alt="A cute orange cat lying on its back" src="https://bit.ly/fcc-relaxing-cat"></a>
 
-<p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
-<p class="red-text">Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
+  <p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+  <p class="red-text">Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
 </div>
 
 ***
