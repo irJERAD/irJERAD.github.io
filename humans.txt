@@ -1,14 +1,14 @@
 /* TEAM */
-Developer & Designer: Josh Gerdes
-Twitter: @joshgerdes
-Site: http://joshgerdes.com
-Location: Minneapolis, MN, USA
-						
+Developer & Designer: Jerad Acosta
+Twitter: @irJERAD
+Site: http://Jerad.xyz
+Location: San Francisco, CA, USA
+
 /* THANKS */
-Name: Laura Gerdes
+Name: Mom
 
 /* SITE */
-Last update: 2015/02/11
+Last update: 2016/06/27
 Standards: HTML5, CSS3
 Components: Jekyll
-Software: Sublime Text, Photoshop
+Software: Atom, Sketch
