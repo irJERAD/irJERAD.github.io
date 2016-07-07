@@ -73,16 +73,74 @@ Purchased m-fewer pieces of merchandise than d-demand --> loss of m \* (profit p
 
 ### Other Newsvendor Problems
 
->For each of the examples: some forecast of future demand is essential
+>For each of the examples, some forecast of future demand is an essential.  
+
+A newsvenver problem requires the actor to make their decisions before the demand or consuption is known.
 
 1. **Governments order flu vaccines** before the flu season begins, and before the extent of the nature of the flu strain is known.
-  - How many vaccines to order?
-  - This is a *Newsvendor Problem* because you have to know how to make your decision before the demand is known.
+	- How many vaccines to order?  
+	- This is a *Newsvendor Problem* because you have to know how to make your decision before the demand is known.
 2. Smartphone users buy **mobile data plans** before they know their actual future usage
-  - What is the right plan for you?
+	- What is the right plan for you?
 3. Consumers **buy health insurance plans**, before they know their actual health expenditures.
-  - How to think about the right plans?
+	- How to think about the right plans?
 
+
+## Forecasting
+
+### Introduction to Forecasting
+
+#### What is Forecasting?
+The primary function of **forecasting** is to predict the future.
+Predicting the future is appealing because it dictates the kind of decisions we make today. It follows that the quality of these decisions should be directly related to the accuracy of our forecasting.
+>If we know something about the future, we can make better decisions today.
+
+There are lots of economic uses for forecasting.  
+Typical applications of forecasting can be seen in:
+- Forecasting demand for products and demand for services.
+- Forecasting inventory needs and forecasting capacity needs
+- and so on...
+
+#### Quality of a Forecast
+Forecasting is obviously important and valued, but **What makes a good forecast?**
+- Timely: a perfect forecast immediately becomes no more valuable than a statement when it is no longer about the future)
+- Accuracy: the more accurate a forecast, the more enhanced decisions can become
+- Meaningful units: knowing demand for a product will increase is not nearly as valuable as knowing whether it will double or increase tenfold
+- The forecasting method should be easy to use and understood in practice
+
+#### The First rule of Forecasting
+**The first rule of forecasting is that point forecasts are usually wrong.**
+
+To forecast that the temperature will be 78.2 degrees fahrenheit provides an infinite amount of possibilities to be proven wrong just between 78.3 and 78.4 degrees
+
+We cannot predict future demand with certainty.
+
+We can try to decide what future demand scenarios are possible and for each scenario, estimate the likelihood of its realization.
+
+Trying to leverage the most value from forecasting, and with *the first rule of forecasting in mind*, we combine likelihoods with scenarios to distribute forecast over a probability space. This probability space can then provide us with expected values that act almost as an *average of forecasts*
+
+For example:
+If analyzing data lead us to conclude on the following scenarios:
+- Likelihood of "high" demand is 20%
+- Likelihood of "normal" demand is 70%
+- Likelihood of "low" demand is 10%
+
+To simplify things further, let's say there were only these three options and that "normal" was twice as likely as "low" and half as likely as "high"
+
+Assuming this was a complete system we could statistically compute the expected demand as so:
+P(demand is 20%) = 2 x P(demand is 70%) = 4 x P(demand is 10%)
+And because of our assumption this was a complete system
+P(demand is 20%) + P(demand is 70%) + P(demand is 10%) = 1
+
+Substitution gives us:
+4 x P(demand is 10%) + 2 x P(demand is 10%) + P(demand is 10%) = 1
+OR
+7 x P(demand is 10%) = 1 <==> P(demand is 10%) = 1/7
+
+We can then quickly find that
+P(demand is 70%) = 2/7
+and
+P(demand is 70%) = 4/7
 
 [Coursera]: <https://Coursera.org> "Online Classes From Top Universities"
 [Operations Analytics]: <https://www.coursera.org/learn/wharton-operations-analytics> "Transforming Data into Better Decisions"
