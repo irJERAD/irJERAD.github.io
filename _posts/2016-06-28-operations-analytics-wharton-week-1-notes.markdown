@@ -140,7 +140,11 @@ OR
 We can then quickly find that
 P(demand is 70%) = 2/7
 and
-P(demand is 70%) = 4/7
+P(demand is 20%) = 4/7
+
+Again, due to a gross over simplification for examples sake, we could then conclude an expected value of:
+Expected value of Demand = E[demand = 20%] + E[demand = 10%] + E[demand = 70%] = 
+
 
 [Coursera]: <https://Coursera.org> "Online Classes From Top Universities"
 [Operations Analytics]: <https://www.coursera.org/learn/wharton-operations-analytics> "Transforming Data into Better Decisions"
