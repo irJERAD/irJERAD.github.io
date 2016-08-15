@@ -30,18 +30,18 @@ And a break down of the courses 4 modules:
 > In this module we’ll examine Arduino shields and how they are used to extend the capabilities of an Arduino-based system. Shields are printed circuit boards that are stacked on top of the Arduino together with libraries that enable the new hardware to be used through an Arduino sketch. We’ll describe the benefits of shields and their basic construction as well as the use of libraries in interfacing with each shield. This module also describes how to connect your IoT device to the Internet using shields. We focus on an Ethernet shield in order to establish a wired network connection, and a WiFi shield to establish a wireless connection.
 
 
----  
+  ---  
 
->! References:
-> ¡Left Blank Intentionally!
-> below here in the source code are reference links that can be reused throughout the article.
-> ###TODO Check if you can use reference links from other posts without reciting them on each page
-> ¿can there be 'Global' reference links - or image sources - that can be used on multiple pages?
+  >! References:
+  > ¡Left Blank Intentionally!
+  > below here in the source code are reference links that can be reused throughout the article.
+  > ###TODO Check if you can use reference links from other posts without reciting them on each page
+  > ¿can there be 'Global' reference links - or image sources - that can be used on multiple pages?
 
-[This Class]: <https://www.coursera.org/learn/interface-with-arduino> "Interfacing with the Arduino"
+  [This Class]: <https://www.coursera.org/learn/interface-with-arduino> "Interfacing with the Arduino"
 
-[This Specialization]: <https://www.coursera.org/specializations/iot> "Create You Own Internet of Things (IoT) Device"
+  [This Specialization]: <https://www.coursera.org/specializations/iot> "Create You Own Internet of Things (IoT) Device"
 
-[UCI]: <https://uci.edu> "University California Irvine"
+  [UCI]: <https://uci.edu> "University California Irvine"
 
-[Coursera]: <https://Coursera.org> "Online Classes From Top Universities"
+  [Coursera]: <https://Coursera.org> "Online Classes From Top Universities"
