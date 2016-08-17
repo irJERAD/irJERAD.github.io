@@ -11,7 +11,8 @@ These are notes for [The Arduino Platform and C Programming][This Class].
 
 
 ####Week 2: Create a Fibonacci Printing Program
-```
+
+```c
 /* Write a program in C that computes and prints out the first six digits
 in the Fibonacci sequence. You will need to look up the definition of
 the Fibonacci sequence if you don't know it.
@@ -41,7 +42,6 @@ int main() {
 
   return 0;
 }
-
 ```
 
 ---  

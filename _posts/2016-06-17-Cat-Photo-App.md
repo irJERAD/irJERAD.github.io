@@ -107,8 +107,8 @@ A Cat Photo App page made while going through some front end development exercis
     <li>cat nip</li>
     <li>laser pointers</li>
     <li>lasagna</li>
-  </ul>
-  <p>Top 3 things cats hate:</p>
+</ul>
+  <p>yyTop 3 things cats hate:</p>
   <ol>
     <li>flea treatment</li>
     <li>thunder</li>
