@@ -44,6 +44,50 @@ int main() {
 }
 ```
 
+
+####Week 3: Alternate between Fast and Slow flashing Pin 13 LED
+#####5 equidistance blinks over 2.5 seconds followed by 5 equidistance blinks over 10 seconds
+> Write a program that causes the built-in LED connected to pin 13 on the Arduino to blink, alternating between fast blinks and slow blinks. The LED should blink 5 times, once every half second, and then it should blink 5 more times, once every two seconds.
+
+```c
+/*
+ This code used the Blink example that comes with the Arduino IDE
+ It was modified to accomidate a University of Irvine class requirement
+ as part of the IoT programming certification via Coursera
+
+  modified 17 August 2016
+  by Jerad Acosta
+ */
+
+
+// the setup function runs once when you press reset or power the board
+void setup() {
+  // initialize digital pin 13 as an output.
+  pinMode(13, OUTPUT);
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  // create loop with 5 blinks at 1 per half second
+  // 1/4 second on amd 1/4 second off gives one blink per half second
+  for(int i = 0; i < 5; i++) {
+    digitalWrite(13, HIGH);   // turn the LED on (HIGH is the voltage level)
+    delay(250);              // wait for 1/4 of a second
+    digitalWrite(13, LOW);    // turn the LED off by making the voltage LOW
+    delay(250);              // wait for 1/4 of a second
+  }
+  // create loop with 5 blinks at 1 per 2 seconds
+  // 1 second on and 1 second off gives 1 blink per 2 seconds
+  for(int i = 0; i < 5; i++) {
+    digitalWrite(13, HIGH);   // turn the LED on (HIGH is the voltage level)
+    delay(1000);              // wait for 1 second
+    digitalWrite(13, LOW);    // turn the LED off by making the voltage LOW
+    delay(1000);              // wait for 1 second
+  }
+}
+
+```
+
 ---  
 
 >! References:
