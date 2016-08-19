@@ -5,7 +5,64 @@ date: "2016-08-15 04:27:41 -0700"
 ---
 
 These are notes for [The Arduino Platform and C Programming][This Class].
+----
+###Module Quizzes
+####Quiz 2
+1. What is the name of the library which contains the printf() function?
+stdio.h
 
+2. What does the '\n' character mean?
+newline
+
+3. What type of data is surrounded by double quotes in a program?
+a string
+
+4. What C type is one byte long?
+char
+
+5. Does the following statement evaluate to True or False?
+`(10 || (5-2)) && ((6 / 2) - (1 + 2))`
+becomes: `(10 || 7) && (3 - 3)` --> (True OR True) AND False
+
+6. What does the following program print to the screen?
+```c
+int main (){
+   int x = 0, y = 1;
+   if (x || !y)
+  	printf("1");
+   else if (y && x)
+  	printf("2");
+   else
+  	printf("3");
+}
+```
+
+7. What does the following program print to the screen?
+```c
+int main (){
+   int x = 0, z = 2;
+   while (x < 3) {
+  	printf ("%i ", x);
+      x = x + z;
+    }
+}
+```
+8. What does the following program print to the screen?
+```c
+int foo (int q) {
+    int x = 1;
+    return (q + x);
+}
+int main (){
+   int x = 0;
+   while (x < 3) {
+  	printf ("%i ", x);
+      x = x + foo(x);
+    }
+}
+```
+
+------
 ###Student Peer graded Assignments
 ####Week 1: Program a blinking LED on an Arduino board
 
@@ -85,7 +142,6 @@ void loop() {
     delay(1000);              // wait for 1 second
   }
 }
-
 ```
 
 ---  
