@@ -124,16 +124,18 @@ int main (){
 
 #### Quiz 3   
 1. What is the function of the linking process after compilation?  
-
-2. What is the role of avrdude?
+It merges the libraries with the application code into a single executable.  
+2. What is the role of avrdude?  
+It writes the executable into the memory of the Arduino  
 3. Why are classes (in C++) useful?  
 They improve the organization and understandability of the code  
 4. What is one way that a sketch can invoke a function contained inside a class?  
-The name of the function can be concatenated with the name of the class, with a colon in between.  
+The name of the class can be concatenated with the name of the function, with a period in between.  
 5. Which of the following statements is true?  
 The `setup()` function is executed once and the `loop()` function is executed iteratively, as long as the Arduino is powered on.  
 6. True of False: An analog pin can accept analog inputs and drive analog outputs?  
-True; analogRead() uses the Arduino board 10-bit Analog to Digital converter. This enable mapping of input voltage between 0 and 5 volts to integer values between 0 and 1023.  
+False; analogRead() uses the Arduino board 10-bit Analog to Digital converter. This enable mapping of input voltage between 0 and 5 volts to integer values between 0 and 1023.
+There is no analog output supported by the Arduino in any of its pins including the analog outputs.  
 7. If a sketch running on an Arduino UNO executes the following statements, what voltage would be expected on pin 1 afterwards?  
 ```c
 pinMode(1, OUTPUT);
