@@ -7,9 +7,67 @@ tags: [Learn, C, Arduino, Programming, Notes, Coursera, Class]
 ---
 
 These are notes for [The Arduino Platform and C Programming][This Class].  
+
+### Class Reading  
+#### Module 3 Reading
+Arduino Toolchain and setup
+1. [Arduino Build Process](https://www.arduino.cc/en/Hacking/BuildProcess)
+2. [setup() Function](https://www.arduino.cc/en/Reference/Setup)
+3. [loop() Function](https://www.arduino.cc/en/Reference/Loop)
+4. [pinMode() Function](https://www.arduino.cc/en/Reference/PinMode)
+5. [digitalWrite() Function](https://www.arduino.cc/en/Reference/DigitalWrite)
+6. [digitalRead() Function](https://www.arduino.cc/en/Reference/DigitalRead)
+7. [analogRead() Function](https://www.arduino.cc/en/Reference/AnalogRead)
+
+
+Arduino Toolchain and Upload process:  
+* code  
+  * Write Code / Program in Arduino IDE  
+* Verify  
+  1. Combine & Transform (code) -->  
+  2. Compile -->  
+  3. Link (libraries) -->  
+  4. Hex File Creation  
+* Upload  
+  * (5) Upload .hex file to Arduino board
+
+### Combine and Transform
+* All program files are combined into one
+* An #include is added to reference basic Arduino libraries
+* Function prototypes are added
+  * Every function has a prototype that defines things like type for variable inputs and return types
+* A main() function is created
+  * every C and C++ program needs a main
+  * The main is created behind the scenes here based on the setup() and loop()
+
+### Compile and link  
+* avr-gcc is invoked to cross-compile the code  
+  * Resulting code executes on AVR, not Intel  
+* Generates an object file (.o file)  
+* Object file is linked to Arduino library functions (that are being used)  
+
+After you have combined the different source files into one you've transformed them adding the `main()` including the libraries, then you cross-compile the code.
+
+**Compilation** is taking the C or C++ code and generating the machine code required to execute the actual program - because the processor only understand machine code and not high level languages we program in.
+**Cross-Compilation** is when you compile code on one machine for execution on another machine.
+Here we are compiling code on our Intel processor based laptops or desktops that is intended to be executed on AVR processor in the Arduino boards.
+
+Compilation produces an _object file_ (.o file) that is compiled but not complete because it still needs to be **Linked**.
+
+**Linking** is taking the object (.o) files and combining them. This includes object files for libraries.
+When functions from other libraries are used in the code, a branch or jump statement needs to be inserted to jumps you to the libraries code. When Compiling you do not know where in the library a function is. *During the linking process* the object files from your code and the libraries code make this more explicit by creating those precise jumps in the executable.
+
+### Hex File Creation and Programming  
+* avr-objcopy is invoked to change the format of the executable file  
+* A .hex file is generated from the .elf file  
+
+After compiling and linking is finished, you get an _.elf file_ which is an executable file. BUT, the Arduino processor does not accept .elf files.
+So **avr-objcopy** is used to change .elf file to another executable file that can be used by the Arduino processor. This is the **.hex file**.  
+
+
 ----
-###Module Quizzes  
-####Quiz 2   
+### Module Quizzes  
+#### Quiz 2   
 1. What is the name of the library which contains the printf() function?
 stdio.h  
 
@@ -64,12 +122,33 @@ int main (){
 }
 ```
 
+#### Quiz 3   
+1. What is the function of the linking process after compilation?  
+
+2. What is the role of avrdude?
+3. Why are classes (in C++) useful?  
+They improve the organization and understandability of the code  
+4. What is one way that a sketch can invoke a function contained inside a class?  
+The name of the function can be concatenated with the name of the class, with a colon in between.  
+5. Which of the following statements is true?  
+The `setup()` function is executed once and the `loop()` function is executed iteratively, as long as the Arduino is powered on.  
+6. True of False: An analog pin can accept analog inputs and drive analog outputs?  
+True; analogRead() uses the Arduino board 10-bit Analog to Digital converter. This enable mapping of input voltage between 0 and 5 volts to integer values between 0 and 1023.  
+7. If a sketch running on an Arduino UNO executes the following statements, what voltage would be expected on pin 1 afterwards?  
+```c
+pinMode(1, OUTPUT);
+digitalWrite(1, HIGH);
+```  
+5
+8. True or False: The `delay()` function cases program execution to pause for a number of milliseconds?  
+True  
 ------
-###Student Peer graded Assignments
-####Week 1: Program a blinking LED on an Arduino board
+
+### Student Peer graded Assignments
+#### Week 1: Program a blinking LED on an Arduino board
 
 
-####Week 2: Create a Fibonacci Printing Program
+#### Week 2: Create a Fibonacci Printing Program
 
 ```c
 /* Write a program in C that computes and prints out the first six digits
@@ -104,8 +183,8 @@ int main() {
 ```
 
 
-####Week 3: Alternate between Fast and Slow flashing Pin 13 LED
-#####5 equidistance blinks over 2.5 seconds followed by 5 equidistance blinks over 10 seconds
+#### Week 3: Alternate between Fast and Slow flashing Pin 13 LED
+##### 5 equidistance blinks over 2.5 seconds followed by 5 equidistance blinks over 10 seconds
 > Write a program that causes the built-in LED connected to pin 13 on the Arduino to blink, alternating between fast blinks and slow blinks. The LED should blink 5 times, once every half second, and then it should blink 5 more times, once every two seconds.
 
 ```c
