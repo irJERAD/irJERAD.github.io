@@ -2,11 +2,13 @@
 layout: post
 title: "Arduino and C Programming Class Notes"
 date: "2016-08-15 04:27:41 -0700"
+categories: Learning
+tags: [Learn, C, Arduino, Programming, Notes, Coursera, Class]
 ---
 
-These are notes for [The Arduino Platform and C Programming][This Class].
+These are notes for [The Arduino Platform and C Programming][This Class].  
 ----
-###Module Quizzes
+###Module Quizzes  
 ####Quiz 2   
 1. What is the name of the library which contains the printf() function?
 stdio.h  

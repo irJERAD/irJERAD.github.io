@@ -2,6 +2,8 @@
 layout: post
 title: "The Arduino Platform and C Programming"
 date: "2016-08-15 03:54:56 -0700"
+categories: Learning
+tags: [Learn, C, Arduino, Programming]
 ---
 
 [The Arduino Platform and C Programming Course][This Class] is the second class in the five-course program [Programming The Internet of Things (IoT)][This Specialization] that is completed with a capstone project as a hands on practical research and development. The Professional Certification is offered by the [University of California Irvine][UCI].
