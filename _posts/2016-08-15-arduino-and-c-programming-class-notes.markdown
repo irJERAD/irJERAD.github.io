@@ -7,24 +7,24 @@ date: "2016-08-15 04:27:41 -0700"
 These are notes for [The Arduino Platform and C Programming][This Class].
 ----
 ###Module Quizzes
-####Quiz 2
+####Quiz 2   
 1. What is the name of the library which contains the printf() function?
-stdio.h
+stdio.h  
 
 2. What does the '\n' character mean?
-newline
+newline  
 
 3. What type of data is surrounded by double quotes in a program?
-a string
+a string  
 
 4. What C type is one byte long?
-char
+char  
 
 5. Does the following statement evaluate to True or False?
 `(10 || (5-2)) && ((6 / 2) - (1 + 2))`
-becomes: `(10 || 7) && (3 - 3)` --> (True OR True) AND False
+becomes: `(10 || 7) && (3 - 3)` --> (True OR True) AND False  
 
-6. What does the following program print to the screen?
+6. What does the following program print to the screen?  
 ```c
 int main (){
    int x = 0, y = 1;
@@ -37,7 +37,7 @@ int main (){
 }
 ```
 
-7. What does the following program print to the screen?
+7. What does the following program print to the screen?  
 ```c
 int main (){
    int x = 0, z = 2;
@@ -47,7 +47,7 @@ int main (){
     }
 }
 ```
-8. What does the following program print to the screen?
+8. What does the following program print to the screen?  
 ```c
 int foo (int q) {
     int x = 1;
