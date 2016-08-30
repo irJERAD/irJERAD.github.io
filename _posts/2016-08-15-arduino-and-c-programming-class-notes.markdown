@@ -8,8 +8,8 @@ tags: [Learn, C, Arduino, Programming, Notes, Coursera, Class]
 
 These are notes for [The Arduino Platform and C Programming][This Class].  
 
-### Class Reading  
-#### Module 3 Reading
+# Class Reading  
+## Module 3 Lecture Notes  
 Arduino Toolchain and setup
 1. [Arduino Build Process](https://www.arduino.cc/en/Hacking/BuildProcess)
 2. [setup() Function](https://www.arduino.cc/en/Reference/Setup)
@@ -64,10 +64,59 @@ When functions from other libraries are used in the code, a branch or jump state
 After compiling and linking is finished, you get an _.elf file_ which is an executable file. BUT, the Arduino processor does not accept .elf files.
 So **avr-objcopy** is used to change .elf file to another executable file that can be used by the Arduino processor. This is the **.hex file**.  
 
+# Module 4 Debugging _using the Serial Interface_
+## Module 4 Reading  
+[Serial Communication with the Arduino](https://www.arduino.cc/en/Reference/Serial)
+
+## Module 4 Lecture Notes  
+Debugging comes after you have written your code and something inevitably fails to run the first time you attempt to run it.
+>You should expect to spend a lot of time debugging code. In-fact, a safe rule-of-thumb is that debugging takes about twice as long as writing the code in the first place.
+
+### Debug and Trace
+**Controllability**
+- Ability to control sources of data used by the system
+- Input pins, input interfaces (serial. ethernet, etc)
+- Registers and internal memory
+
+**Observability**
+- Ability to observe intermediate and final results
+- Output pin, output interfaces
+- Registers and internal memory
+
+Controllability and observability are required
+
+_In addition to controllability you need observability_
+**Observability** is the ability to observe intermediate and final results
+The first thing you need to observe are the output pins. Either an actuator like an LED or a multimeter reading the outpudect of a particular pin. If the pin is changing states quickly you may want to use an oscilloscope to view a change in voltage over time.
+
+### Debug Environments
+**Remote Debugger**
+_Host_ is the computer on which you are writing
+_Target_ an external embedded system - in this case the Arduino board - on which code to be debugged is run on
+
+**Remote Debug Pros and Cons**
+Advantages
+1. Good run control using breakpoints to stop execution
+2. Debug monitor can alter memory and Registers
+3. Perfect functional accuracy
+
+Disadvantages
+1. Debug interrupts alter timing so real-time monitoring is not possible
+2. Need a spare communication channel
+3. Need program in RAM (not flash) to add breakpoints
+
+**Embedded Debug Interface** Debug logic that is built into the processor. Does Debug activities and is BuildProcess
+- Many modern processor include
+- Works
+- A few dedicated pins have to be added for
+
+Pros
+1. Faster
+
 
 ----
-### Module Quizzes  
-#### Quiz 2   
+# Module Quizzes  
+## Quiz 2   
 1. What is the name of the library which contains the printf() function?
 stdio.h  
 
@@ -122,7 +171,7 @@ int main (){
 }
 ```
 
-#### Quiz 3   
+## Quiz 3   
 1. What is the function of the linking process after compilation?  
 It merges the libraries with the application code into a single executable.  
 2. What is the role of avrdude?  
@@ -144,13 +193,75 @@ digitalWrite(1, HIGH);
 5
 8. True or False: The `delay()` function cases program execution to pause for a number of milliseconds?  
 True  
+
+## Quiz 4   
+1. Which of the following does NOT provide observability in a system?  
+- A switch connected to an Arduino input pin  
+2. What is meant by the expression "run control of the target"?  
+
+The ability to control the inputs to the target microcontroller
+
+The ability to control the outputs of the microcontroller
+
+The ability of the target microcontroller to control its own inputs
+
+
+- The ability to stop and start the execution of the target microcontroller
+
+WRONG3. What is **NOT** an advantage of using a remote debugger?  
+
+Remote debugging allows good run control
+
+Remote debugging requires an extra communication channel for debugging
+
+Remote debugging allows control of registers and memory
+
+- Remote debugging provides excellent functional accuracy
+
+WRONG4. What is **NOT** a feature of an embedded debug interface?  
+
+Extra pins are needed to support debugging
+
+Breakpoints and watchpoints are supported
+
+Automatic test generation is commonly supported
+
+- On-the-fly memory access is supported
+
+5. What is **NOT** an advantage of the UART protocol?  
+A shared clock is not required
+
+- Fewer wires are needed for communication as compared to a parallel protocol
+
+Fewer pins are needed than using a parallel protocol
+
+Higher data transfer rates are typically achieved compared to a parallel protocol
+
+6. Which of the following statements is **NOT** true about the UART protocol?  
+The bit duration is determined by the baud rate
+
+The bit duration is the inverse of the baud rate
+
+The baud rate is the maximum number of transitions per second
+
+The data transmission rate is equal to the baud rate
+
+7. Synchronization is performed in the UART protocol based on the timing of the Start bit. True or False?  
+- True
+
+False
+
+8. An error in bit transmission (perhaps dye to noise) may not be detected, even if a parity bit is used. True of False?  
+- True
+
+False
 ------
 
-### Student Peer graded Assignments
-#### Week 1: Program a blinking LED on an Arduino board
+# Student Peer graded Assignments
+## Week 1: Program a blinking LED on an Arduino board
 
 
-#### Week 2: Create a Fibonacci Printing Program
+## Week 2: Create a Fibonacci Printing Program
 
 ```c
 /* Write a program in C that computes and prints out the first six digits
@@ -185,8 +296,8 @@ int main() {
 ```
 
 
-#### Week 3: Alternate between Fast and Slow flashing Pin 13 LED
-##### 5 equidistance blinks over 2.5 seconds followed by 5 equidistance blinks over 10 seconds
+## Week 3: Alternate between Fast and Slow flashing Pin 13 LED
+### 5 equidistance blinks over 2.5 seconds followed by 5 equidistance blinks over 10 seconds
 > Write a program that causes the built-in LED connected to pin 13 on the Arduino to blink, alternating between fast blinks and slow blinks. The LED should blink 5 times, once every half second, and then it should blink 5 more times, once every two seconds.
 
 ```c
