@@ -41,7 +41,7 @@ Press 'q' to exit the help screen
 
 When looking for information on a specific method of a function we can use the dot notation.
 
-> To learn more about the `center()` method in the `str()' function we can use the `help()` function as so:
+> To learn more about the `center()` method in the `str()` function we can use the `help()` function as so:
 ```python
 help(str.center)
 ```
