@@ -9,12 +9,12 @@ tags: [Family, Memory, Experience, Wedding, Friends, Pictures]
 I had such a wonderful time at my father, [Steve Acosta][DadFaceBook]'s, and mother, [Lori Acosta][LoriFaceBook]'s, wedding. Thank you to all the family and friends who came out to participate and be a part of that memory for me - _well I doubt any of you came out for **me** but I certainly enjoyed the experience all-the-same_.  
 As with all beautiful days brimming with heartening nostalgic goodness, the worst - _if only bad_ - part of such wonder is the haste with which it all slips from between the fingers on the hands of experience and into the mind, its final resting place among other such memories; shuffled amongst photographs and sentimental keepsakes.
 
-> As with any day so full of beauty (it required) the rising Sun (must have) superlatively [measured/quantified/amassed] [dose/prescription/endorsement] of nostalgia
+> For a day so full of beauty the rising Sun must have superlatively amassed a faultless prescription of nostalgia
 
 In an imperfect attempt to capture the day...  
 _like two figure skaters chasing the dream_   
 ![capture the dream][Capture The Dream]  
-...we comfort ourselves with matrices of colored points encapsulated by digital pixels the way our smart phones encapsulate our lives; that is to say, _if it isn't there, it didn't happen nor does it exist._ A dull aftertaste of the only recently begotten FOMO era no doubt.
+...we comfort ourselves with matrices of colored points encapsulated by digital pixels the way our smart phones encapsulate our lives,_with their pictal diaries_; that is to say, _if it isn't there, it didn't happen nor does it exist._ A dull aftertaste of the only recently begotten FOMO era no doubt.
 (epitome / epitomize)[As if to only live on as an epitome of ...]
 
 ![Amanda attacked by Mothra][MothraQuick]  
