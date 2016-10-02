@@ -2,6 +2,7 @@
 layout: post
 title: "Amazon"
 date: "2016-10-01 20:01:12 -0700"
+permalink: /amazon/
 ---
 
 Amazon is awesome. We already spend a ton of money there. Help me pay for this site by clicking this link each time before you begin an amazon shopping spree.  
