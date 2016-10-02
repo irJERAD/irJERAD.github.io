@@ -6,6 +6,7 @@ permalink: /amazon/
 ---
 
 Amazon is awesome. We already spend a ton of money there. Help me pay for this site by clicking this link each time before you begin an amazon shopping spree.  
+**NOTE:** This will not add anything to the prices on amazon. It simply gives me credit for taking you there (rather than those creepy adds that always know when I need more toilet paper - _and I don't even order toilet paper online_)  
 
 <div class="alignleft">
      <script type="text/javascript">
