@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amazon Associate Link"
+title: "Amazon"
 date: "2016-10-01 19:52:19 -0700"
 ---
 
