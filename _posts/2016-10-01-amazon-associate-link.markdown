@@ -4,17 +4,7 @@ title: "Amazon Associate Link"
 date: "2016-10-01 19:52:19 -0700"
 ---
 
-iframe version  
-
-<iframe src="//rcm-na.amazon-adsystem.com/e/cm?o=1&p=7&l=ez&f=ifr&linkID=6302c2828024d71a7d45a81b5f9897d6&t=wwwjeradacost-20&tracking_id=wwwjeradacost-20" width="468" height="40" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
-
-
-
----
-
-
-
-JavaScript version  
+Amazon is awesome. We already spend a ton of money there. Help me pay for this site by clicking this link each time before you begin an amazon shopping spree.  
 
 <div class="alignleft">
      <script type="text/javascript">
@@ -31,3 +21,9 @@ JavaScript version
      </script>
      <script src="//z-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1"></script>
     </div>
+
+
+Disclaimer: I directly profit 2% up to 6% (though hardly since that's for the stuff nobody wants to buy anyways).
+Fortunately it does not cost me that much to run this site aside from a lot of waisted time and thoughts that someday I'll put together something worth visiting.
+
+I really appreciate it!
