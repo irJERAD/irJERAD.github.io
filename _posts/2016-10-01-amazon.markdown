@@ -6,7 +6,7 @@ permalink: /amazon/
 ---
 
 Amazon is awesome. We already spend a ton of money there. Help me pay for this site by clicking this link each time before you begin an amazon shopping spree.  
-
+>
 <div class="alignleft">
      <script type="text/javascript">
        	amzn_assoc_ad_type = "banner";
