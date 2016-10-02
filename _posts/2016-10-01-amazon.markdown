@@ -6,7 +6,7 @@ permalink: /amazon/
 ---
 
 Amazon is awesome. We already spend a ton of money there. Help me pay for this site by clicking this link each time before you begin an amazon shopping spree.  
-
+####
 <div class="alignleft">
      <script type="text/javascript">
        	amzn_assoc_ad_type = "banner";
@@ -16,7 +16,7 @@ Amazon is awesome. We already spend a ton of money there. Help me pay for this s
 	amzn_assoc_banner_type = "ez";
 	amzn_assoc_p = "7";
 	amzn_assoc_width = "468";
-	amzn_assoc_height = "80";
+	amzn_assoc_height = "40";
 	amzn_assoc_tracking_id = "wwwjeradacost-20";
 	amzn_assoc_linkid = "2866d68ea633a4d0c1068d8d83bbdb1b";
      </script>
