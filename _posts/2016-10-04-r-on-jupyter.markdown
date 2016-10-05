@@ -30,8 +30,16 @@ Using R from the Terminal as shown above should also work - _however_ - between 
 Some more interesting notes that I could look into if I didn't have more exciting repos of data awaiting my exploration, would be that `pbdZMQ` is designed to provide high level wrappers for the `ZeroMQ` library but the [Cran site][pbdZMQ CRAN site] explicitly states:
 >For convenience, a minimal 'ZeroMQ' library (4.1.0 rc1) is shipped with 'pbdZMQ', which can be used if no system installation of 'ZeroMQ' is available.  
 
-So it could also be that linking `ZeroMQ` as a package dependency could fix all this. The package is only in Version: 0.2-4 at the writing of this piece. And as mentioned, there are plenty of GitHub bug reports, unanswered Stack Overflow queries - which I will be right on tomorrow morning as it's already well into the morning and I've got an interview with a alluring data company in the IoT business in a few hours that I best rest up for. 
+So it could also be that linking `ZeroMQ` as a package dependency could fix all this. The package is only in Version: 0.2-4 at the writing of this piece. And as mentioned, there are plenty of GitHub bug reports, unanswered Stack Overflow queries - which I will be right on tomorrow morning as it's already well into the morning and I've got an interview with a alluring data company in the IoT business in a few hours that I best rest up for.
+
 ---
+
+[Interesting academic paper on the pbdZMQ library](https://cran.r-project.org/web/packages/pbdZMQ/vignettes/pbdZMQ-guide.pdf) that inspired a few iterations in my solution.
+
+[irkernel GitHub Install Page](https://irkernel.github.io/installation/#binary-panel)
+
+[Article From Continnuum](https://www.continuum.io/blog/developer/jupyter-and-conda-r)
+
 [Current Source File]: <https://cran.r-project.org/bin/macosx/mavericks/contrib/3.3/pbdZMQ_0.2-4.tgz> "Current pbdZMQ package source file"  
 
 [pbdZMQ CRAN site]: <https://cran.r-project.org/web/packages/pbdZMQ/index.html> "CRAN site for the pbdZMQ package"
