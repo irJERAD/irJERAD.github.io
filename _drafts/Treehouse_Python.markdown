@@ -108,6 +108,7 @@ def main():
 ---
 ### Number Game
 
+---
 ### Number game challenge tasks
 Write a function named even_odd that takes a single argument, a number.
 return True if the number is even, or False if the number is odd.
@@ -117,4 +118,37 @@ def even_odd(num):
         return True
     else:
         return False
+```
+
+Create a new function named just_right that takes a single argument, a string.
+If the length of the string is less than five characters, return "Your string is too short".
+If the string is longer than five characters, return "Your string is too long".
+Otherwise, just return True.
+```python
+def just_right(string):
+    if len(string) < 5:
+        return "Your string is too short"
+    elif len(string) > 5:
+        return "Your string is too long"
+    else:
+        return True
+```
+
+
+Write a function named squared that takes a single argument.
+If the argument can be converted into an integer, convert it and return the square of the number (num ** 2 or num * num).
+If the argument cannot be turned into an integer (maybe it's a string of non-numbers?), return the argument multiplied by its length.
+```python
+# EXAMPLES
+# squared(5) would return 25
+# squared("2") would return 4
+# squared("tim") would return "timtimtim"
+def squared(num):
+    try:
+        num = int(num)
+        # if this works, return the square of the input num
+        return num ** 2
+    except ValueError:
+        # if unable to convert num to int, return num multiplied by its length
+        return num * len(num)
 ```
