@@ -3,7 +3,7 @@ layout: post
 title: "R on Jupyter"
 date: "2016-10-04 21:01:36 -0700"
 categories: Data
-tags: ['pbdZMQ' had non-zero exit status, R, Jupyter, Notebook, IPython, Data, Analytics]
+tags: [pbdZMQ had non-zero exit status, R, Jupyter, Notebook, IPython, Data, Analytics]
 ---
 
 Trying to setup an environment with an R kernel via conda for use with a Jupyter Notebook I ran into a problem that all but stopped me from progressing. Normally a few permutations of a decent google-ing would suffice but not tonight. Merging a few new technology I was very interested in with one a love dearly, I knew I was just over my head but my fascination with the problem combined with an incredible lack of patience to sit through a drawn out forum conversation or GitHub request - _of which there were already multiple making no progress._  
@@ -13,12 +13,12 @@ If you are half as excited as I am about using these technologies together, then
 [Click Here][Current Source File] to download the source file.
 Even better - rather than relying on me to constantly update this link _and I **wont**_ is to go to the [CRAN Package Site][pbdZMQ CRAN site] and download the most current binary from there.
 
-For me this looked like:
+For me this looked like:  
 ```r
 > install.packages('~/Downloads/pbdZMQ_0.2-4.tar', repos = NULL, type="source")
 ```
 
-**NOTE:**
+**NOTE:**  
 ```bash
 USER$ R CMD INSTALL path_to_file
 # and
