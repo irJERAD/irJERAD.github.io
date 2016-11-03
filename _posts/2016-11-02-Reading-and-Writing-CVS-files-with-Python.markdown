@@ -3,7 +3,7 @@ layout: post
 title: "Reading and Writing CSV files in Python"
 date: "2016-11-02 18:01:36 -0700"
 categories: Data
-tags: [Jupyter, Notebook, IPython, CSV, Data, Analytics]
+tags: [Jupyter, Notebook, IPython, CSV, Data, Analytics, Coursera]
 ---
 
 # Reading and Writing CSV files in Python
