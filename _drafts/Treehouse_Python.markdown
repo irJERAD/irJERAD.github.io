@@ -152,3 +152,57 @@ def squared(num):
         # if unable to convert num to int, return num multiplied by its length
         return num * len(num)
 ```
+
+---
+### Letter Game
+
+---
+### Letter Game challenge tasks
+
+First, import the random library.
+Then create a function named random_item that takes a single argument, an iterable. Then use random.randint() to get a random number between 0 and the length of the iterable, minus one. Return the iterable member that's at your random number's index.
+```python
+# EXAMPLE
+# random_item("Treehouse")
+# The randomly selected number is 4.
+# The return value would be "h"
+import random
+
+def random_item(iterable):
+    indx = random.randint(0, len(iterable) - 1)
+    return iterable[indx]
+```
+
+Use input() to ask the user if they want to start the movie.
+If they answer anything other than "n" or "N", print "Enjoy the show!". Otherwise, call sys.exit(). You'll need to import the sys library.
+```python
+import sys
+
+watch = input("Would you like to start the movie? Y/n ").lower()
+if watch != 'n':
+    print("Enjoy the show!")
+else:
+    sys.exit()
+```
+
+Make a while loop that runs until start is falsey.
+Inside the loop, use random.randint(1, 99) to get a random number between 1 and 99.
+If that random number is even (use even_odd to find out), print "{} is even", putting the random number in the hole. Otherwise, print "{} is odd", again using the random number.
+Finally, decrement start by 1.
+```python
+import random
+
+start = 5
+def even_odd(num):
+    # If % 2 is 0, the number is even.
+    # Since 0 is falsey, we have to invert it with not.
+    return not num % 2
+
+while start:
+    rndm_num = random.randint(1, 99)
+    if even_odd(rndm_num):
+        print("{} is even".format(rndm_num))
+    else:
+        print("{} is odd".format(rndm_num))
+    start -= 1
+```
