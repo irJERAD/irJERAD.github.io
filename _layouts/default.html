@@ -5,6 +5,19 @@
   <body>
     {% include header.html %}
 
+    <!--
+    Added from the site:
+    http://digitaldrummerj.me//blogging-on-github-part-5-adding-a-category-page/
+    for category page
+    -->
+    <div class="container" >
+          <div id="archives">
+              browse by <a title="The complete archive of {{ site.name }}'s Blog by category"
+                           href="{{ site.url}}{{site.baseurl}}/categoryview">category</a>
+          </div>
+      </div>
+    </div>
+
     <div class="content-wrapper">
       <div class="content-wrapper__inner">
         {{ content }}
