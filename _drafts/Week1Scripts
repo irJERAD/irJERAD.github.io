@@ -1,0 +1,11 @@
+
+'''python
+people = ['Dr. Christopher Brooks', 'Dr. Kevyn Collins-Thompson', 'Dr. VG Vinod Vydiswaran', 'Dr. Daniel Romero']
+
+def split_title_and_name(person):
+  p = person.split(' ')
+  del p[1]
+  return ' '.join(p)
+
+list(map(split_title_and_name, people))
+'''
