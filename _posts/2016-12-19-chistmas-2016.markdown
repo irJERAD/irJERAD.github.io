@@ -9,6 +9,38 @@ permalink: /Christmas2016/
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=wwwjeradacost-20&marketplace=amazon&region=US&placement=B00O9PMEHY&asins=B00O9PMEHY&linkId=035eae884ad7f5d3ae3af2013bced28d&show_border=true&link_opens_in_new_window=true"></iframe>
 
 
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=wwwjeradacost-20&marketplace=amazon&region=US&placement=B00MBCGWQQ&asins=B00MBCGWQQ&linkId=7b21fe38b310aeb43acf400ffcafa3dd&show_border=true&link_opens_in_new_window=true"></iframe>
+
+
+https://www.pycom.io/product/lopy/  
+
+https://www.pycom.io/product/wipy/  
+
+https://store.micropython.org/#/products/HOUSING-CB-1  
+
+https://store.micropython.org/#/products/HOUSING-OB-1  
+
+https://store.micropython.org/#/products/PYBv1_1H  
+
+
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=wwwjeradacost-20&marketplace=amazon&region=US&placement=B00ND1KNXM&asins=B00ND1KNXM&linkId=f124b571b0a073e3193629d9edd6c7af&show_border=true&link_opens_in_new_window=true"></iframe>
+
+**If you get the Arduino YUN _Above_ or the Linux Sheild _Below_ ==> Then make sure to get the _Arduino Linux_ book two posts down**
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=wwwjeradacost-20&marketplace=amazon&region=US&placement=B00PHCWACW&asins=B00PHCWACW&linkId=2eb180c4749f74e69261870b747c495b&show_border=true&link_opens_in_new_window=true"></iframe>
+
+**DO NOR buy this book unless you get the Arduino YUN or the Linux shield above since I wont have an Arduino capable of running Linux**
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=wwwjeradacost-20&marketplace=amazon&region=US&placement=1514230224&asins=1514230224&linkId=1c0edd5414ee756b7997f3fa755285f2&show_border=true&link_opens_in_new_window=true"></iframe>
+
+** Another fun Arduino + Linux book but do not purchase without the book above and the Arduino YUN _I think_ 4 posts above**
+
+
+**I have no idea how I have gone this far without picking up a camera for one of my raspberry Pis**
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=wwwjeradacost-20&marketplace=amazon&region=US&placement=B012V1HEP4&asins=B012V1HEP4&linkId=9f35478b3cef681383836ad082b1789b&show_border=true&link_opens_in_new_window=true"></iframe>
+
+
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_search_bar = "true";
