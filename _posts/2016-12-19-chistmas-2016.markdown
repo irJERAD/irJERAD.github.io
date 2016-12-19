@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Chistmas 2016"
+title: "Christmas 2016"
 date: "2016-12-19 08:06:02 -0800"
-permalink: /Chistmas2016/
+permalink: /Christmas2016/
 ---
 
 
