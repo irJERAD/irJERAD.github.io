@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <body>
+    <!-- removed header.html from default to use this for html posts -->
+    <!-- This removes the Side bar with Blog, Project, Etc buttons on it -->
+    <!-- {% include header.html %} -->
+
+    <div class="content-wrapper">
+      <div class="content-wrapper__inner">
+        {{ content }}
+      </div>
+
+      {% include footer.html %}
+    </div>
+  </body>
+</html>
