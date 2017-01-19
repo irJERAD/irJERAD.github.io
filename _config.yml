@@ -19,6 +19,33 @@ author:
   github_username:  irJERAD
   linkedin_username:  JeradAcosta
 
+# set time zone
+TZ: America/Los_Angeles
+
+# ----
+# Biuld
+
+collections:
+    Data:
+        output: true
+        permalink: /data/:path/
+    IoT:
+        output: true
+        permalink: /IoT/:path/
+    Electronics:
+        output: true
+        permalink: /electronics/:path/
+    Musics:
+        output: true
+        permalink: /music/:path/
+    Sailing:
+        output: true
+        permalink: /sail/:path/
+    Miscellaneous:
+        output: true
+        permalink: /misc/:path/
+
+
 defaults:
   -
     scope:
@@ -26,6 +53,10 @@ defaults:
       type: 'posts'
     values:
         layout: 'post'
+        author: 'Jerad Acosta'
+  -
+
+
 
 # Build settings
 destination: _site
