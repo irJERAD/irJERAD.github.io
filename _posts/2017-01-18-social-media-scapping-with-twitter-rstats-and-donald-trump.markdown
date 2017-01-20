@@ -228,7 +228,8 @@ doc <- tm_map(doc, stemDocument)
 wordcloud(doc, max.words = 100, random.order = FALSE)
 ```
 
-![]('/images/RtwitteR-Learn_files/figure-markdown_github/word-cloud-1.png')
+![b&w][b&w]
+![b&w](/images/RtwitteR-Learn_files/figure-markdown_github/word-cloud-1.png)
 
 ``` r
 # with color and changing rot.per setting
@@ -236,13 +237,17 @@ pal <- brewer.pal(9,'Reds')
 wordcloud(doc, max.words = 100, random.order = FALSE, rot.per=0.2, colors=pal)
 ```
 
-![]('/images/RtwitteR-Learn_files/figure-markdown_github/word-cloud-2.png')
+![color][color]
+![color](/images/RtwitteR-Learn_files/figure-markdown_github/word-cloud-2.png)
 
 ``` r
 # testing if twitter keeps tweets that donald apparently deletes every days
 here <- userTimeline(user = D.User, n=5, sinceID="821930600290521089")
 ```
 
+[b&w]: </images/RtwitteR-Learn_files/figure-markdown_github/word-cloud-1.png>
+[color]: </images/RtwitteR-Learn_files/figure-markdown_github/word-cloud-2.png>
+[Schematic Symbols]: </images/interfacing-with-arduino/schematic-symbols.png> "Schematic Symbols Cheat Sheet"
 TODO
 ----
 
