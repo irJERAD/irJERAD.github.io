@@ -229,7 +229,6 @@ wordcloud(doc, max.words = 100, random.order = FALSE)
 ```
 
 ![b&w][b&w]
-![b&w](/images/RtwitteR-Learn_files/figure-markdown_github/word-cloud-1.png)
 
 ``` r
 # with color and changing rot.per setting
@@ -238,7 +237,7 @@ wordcloud(doc, max.words = 100, random.order = FALSE, rot.per=0.2, colors=pal)
 ```
 
 ![color][color]
-![color](/images/RtwitteR-Learn_files/figure-markdown_github/word-cloud-2.png)
+
 
 ``` r
 # testing if twitter keeps tweets that donald apparently deletes every days
@@ -247,7 +246,7 @@ here <- userTimeline(user = D.User, n=5, sinceID="821930600290521089")
 
 [b&w]: </images/RtwitteR-Learn_files/figure-markdown_github/word-cloud-1.png>
 [color]: </images/RtwitteR-Learn_files/figure-markdown_github/word-cloud-2.png>
-[Schematic Symbols]: </images/interfacing-with-arduino/schematic-symbols.png> "Schematic Symbols Cheat Sheet"
+
 TODO
 ----
 
