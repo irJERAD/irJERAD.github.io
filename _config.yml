@@ -29,7 +29,12 @@ collections:
     projects:
       output: true
       permalink: /projects/:title.:output_ext
-      author: {{ site.aauthor.name  }}
+      author: {{ site.author.name  }}
+    educational_endeavors:
+      output: true
+      permalink: /educational_endeavors/:title.:output_ext
+      author: {{ site.author.name  }}
+
 
 
 defaults:

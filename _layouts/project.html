@@ -3,7 +3,7 @@ layout: default
 ---
 <h1>Project Portfolio:</h1>
 <div class="projects"> 
-{% for project in site.projects.docs %} 
+{% for project in site.projects %} 
   <a href="#{{  project[0] }}">{{  project[0] }}</a>
 {% endfor %}
 </div>
@@ -23,8 +23,9 @@ layout: default
 </ul>
 </div>
 
-<!-- iterate through all categories on the site --> 
-{% for catitem in site.categories %} 
+<!-- By CATEGORY -->
+<!-- iterate through all categories in Projects collection --> 
+{% for catitem in site.projects.categories %} 
   <!-- for each tag, create an anchor by using the tag name as an id --> 
   <div id="{{ catitem[0] }}">  
     <h3> {{ catitem[0] }} </h3>  <!-- for create a heading --> 
@@ -43,22 +44,38 @@ layout: default
   </div>
 {% endfor %}
 
-<!-- iterate through all tags on the projects category --> 
-{% for tagitem in site.projects.tags %} 
-  <!-- for each tag, create an anchor by using the tag name as an id --> 
-  <div id="{{ tagitem[0] }}">  
-    <h3> {{ tagitem[0] }} </h3>  <!-- for create a heading --> 
 
-    <ul> <!-- create the list of posts -->
-      <!-- iterate through all the posts on the site --> 
+<!-- iterate through each tags on a projects and list associated projects --> 
+<h2>Projects by Tag</h2>
+<!-- Join all tags from all project pages into a single project-tags list -->
+{% assign project-tags =  site.projects | map: 'tags' | join: ','  | split: ',' | uniq %}
+{% for tagitem in project-tags %}
+    <!-- for each tag, create an anchor by using the tag name as an id --> 
+  <div id="{{ tagitem }}">
+      <!-- for create a heading --> 
+    <h3> {{ tagitem }} </h3>
+      <!-- create the list of each Tag used by a Project -->
+    <ul>
+      <!-- iterate through all the projects in the category --> 
       {% for project in site.projects %} 
         <!-- list only those which contain the current tag --> 
-        {% if project.tags contains tagitem[0] %} 
-            <li>
-              <a href="{{ project.url }}">{{ project.title }}</a>
-            </li>
+        {% if project.tags contains tagitem %} 
+          <li>
+            <a href="{{ project.url }}">{{ project.title }}</a>
+          </li>
         {% endif %}
       {% endfor %}
     </ul>
   </div>
 {% endfor %}
+
+
+<!-- Grab All tages used in Projects and create links to their pages -->
+<h2>Project Tags:</h2>
+<div class="tags"> 
+  {% for project in site.projects %}
+    {% for tag in project.tags %}
+      <a href="#{{ tag }}">{{ tag }}</a>
+    {% endfor %}
+  {% endfor %}
+</div>
