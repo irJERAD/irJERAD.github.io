@@ -1,29 +1,9 @@
 ---
 layout: default
 ---
-<h2>Projects:</h2>
-<div class="categories">
-{% for proj in site.projects  %}
-  <a href="#{{  proj[0] }}">{{  proj[0] }}</a>
-{% endfor %}
-</div>
-
-<!-- iterate through all projects on the site -->
-{% for proj in site.projects %}
-  <!-- for each tag, create an anchor by using the tag name as an id -->
-  <div id="{{ proj[0] }}">
-    <h3> {{ proj[0] }} </h3>  <!-- for create a heading -->
-
-    <ul> <!-- create the list of posts -->
-      <!-- iterate through all the posts on the site -->
-      {% for post in site.posts %}
-        <!-- list only those which contain the current tag -->
-        {% if post.projects contains proj[0] %}
-            <li>
-              <a href="{{ post.url }}">{{ post.title }}</a>
-            </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </div>
+{% for project in site.projects.files %}
+	<div class="project">
+		<h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+		<p>{{ project.name }}</p>
+	</div>
 {% endfor %}

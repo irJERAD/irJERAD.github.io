@@ -1,23 +1,12 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
- "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"
- preserveAspectRatio="xMidYMid meet">
-<metadata>
-Created by potrace 1.11, written by Peter Selinger 2001-2013
-</metadata>
-<g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
-<path d="M414 4928 c3 -13 94 -993 202 -2178 133 -1450 201 -2158 209 -2165 7
--5 400 -120 874 -254 l861 -244 866 246 c476 135 869 248 872 252 4 3 95 965
-203 2138 108 1173 199 2153 202 2180 l4 47 -2149 0 -2148 0 4 -22z m3496 -886
-c0 -9 -13 -161 -30 -337 -16 -176 -30 -328 -30 -337 0 -17 -20 -18 -285 -18
-l-285 0 0 80 0 80 -740 0 -740 0 5 -37 c3 -21 39 -416 81 -878 42 -462 79
--843 82 -847 4 -4 138 -44 298 -91 l291 -84 295 85 295 84 17 207 c10 113 23
-268 30 344 l12 137 -328 0 -328 0 0 178 c0 99 3 220 6 270 l7 92 623 0 c515 0
-624 -2 624 -13 0 -28 -149 -1630 -152 -1632 -2 -2 -249 -73 -550 -158 l-546
--155 -549 155 c-301 86 -549 156 -550 157 -2 1 -253 2713 -253 2729 0 4 608 7
-1350 7 1281 0 1350 -1 1350 -18z"/>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="76px" height="76px" viewBox="0 0 76 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>JA</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="apple-touch-icon-76x76">
+            <image id="JA" x="0" y="0" width="76" height="76" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADkAAAAjCAYAAAAuVaJ4AAAABGdBTUEAALGPC/xhBQAABGlJREFUWAnNWVtIVFEU3eeqZQkSYRKGhb2IioooKogeYqnQw+qnom8LIQr66fEzlBVR0IOiwL8++iqxl6IfCT2h+olCSMjMEoWeRFFOzr2tfZ07nHs8586dseRuOHP3XnufM3vd854RBDnY4uzAYw3r/0Isi5pOVIqWEbYlUP88ylhNO++B1WtwLZTLqEW00naoVhuRBeg49A7VRkpyGdrYa/j6BPArKJ8Mfh8MfpGVbQGZ5cC3OcDvc0WZ5FZfpsONdP5UjaiSXIQMp6ey1CsVgAv1Lj8aVZJBQ9VjMAbKBs8IeroLj5NH561Buh4UqPqw9E1M2JnVUdsIsMMORY67FtCO63JJnqwQnbC4hJZYuzM58St0eCaBcxA8N2SFKsSNQwnMJIrDNWwv8nsoQGGigRJFkmHmo0wq7UuJGskyZL9YZpDUedM3HVZ48cnT1ElBUSO5JZWZX2mG2YjCJx1VJgAoV0HZjhpJ01C9jaQ/ozyWk5d0Uz03JEokS5DRCilxT41DaUsatzxQefIRz8jF6FAaGQ2zBl/CNw9V7gP4ngS5R3VSDHClzsFYlEiahpxM7DVyNu3nxlU2KiSLkPxqfusauaNgpiFrWrQi05ObQISvT6p0AOhSQLlnZddUGEtlwNOj0pOmoar2Iuf9COWLR0B5aodsFEjydYmvTTrR9Rrvlbxv6iSyJPnEwtcmVXhffKKCSds0L2fDP1+t495CVHCUbdNQ5e3kriGX8QacYe7NV7I/a5LxPzRZbkjWhU39sh2gc7KmW8RE+CoD6ppcTPKo7Mx6TtoJmiU3JOuWGLYiym5ZZ4JBvSLHhtUXInCGHJw1SZxN5sgNybpj0RvZDtD5rf8P8bWbFcnTrU4BObRHm52ggbz11Kv1+UFebDb6oX9m+UhmNSe/JOgw0inRpYTV4m1MYFamF942ePvQSQPAnzqHgjEZPgSowj9MT0FxX3aK5KEW56IjaFxeDp07tk68VGuxHWt2CuNEp2xBu9GTJtFt4LpY39uWArqh10p2kPoNzpgmgFdmPvBfYp976o+1OsW/bepB4t7/Dvdw4HsG/4cch3rRLcUIXIBnDWK0PciNQRL5gmbGqkW3a5k/+AjXj1KkCbkAbJ8G10G8J2o7BHg7SjlXcnsyblOdRJDxcrKHAryruLnjOHxI8CIuhyDIwXwY1xFkXxN/hBTeDztR+BCgyioA/B2fLPy0mA8CdWpEprYQ9HTsNDoQsp5pqH5F/Qch2/DCGj1FefJo2cSYFR+gXfgXapISkJkp6CFI1sTmCUzZtMJTxHQt4hPOYNoW/AE3/KbPcl8mbyF93As+V0gD2dqWRccXV9GaE1WiL2S15YgzzeubIduQw57D6JEBSXdXcH6rrhxpc5bYg1SHobsdAP8qbRS8lI/o/au5ghrqqwXf1jORMwjWDesB4DyHfmTSWDL2LJ77DfV2pkh6AbzRY2KUwS61bSpFQCn08SD/HeS6hEMvxuRTR2ytyHRYeV8x6s+/IIjLvQ0iPpgAAAAASUVORK5CYII="></image>
+        </g>
+    </g>
 </svg>

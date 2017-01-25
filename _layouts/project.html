@@ -1,15 +1,64 @@
 ---
-layout: web
+layout: default
 ---
-<div class="project">
-
-<!-- Changed next 2 divs from ex to custom from web.html -->
-  <div class="content-wrapper">
-      <div class="content-wrapper__inner">
-        {{ content }}
-      </div>
-
-      {% include footer.html %}
-    </div>
-
+<h1>Project Portfolio:</h1>
+<div class="projects"> 
+{% for project in site.projects.docs %} 
+  <a href="#{{  project[0] }}">{{  project[0] }}</a>
+{% endfor %}
 </div>
+
+<h2>Some of My <span style="font-size:0.45em;font-style: italic;">just for Fun</span> Projects</h2>
+<div class="projects">
+<ul>
+{% for project in site.projects %}
+  <li>
+    <a href="{{ project.url }}">{{ project.title }}</a>
+    <ul>
+      <li>Made for kicks <em>& with plenty of Love</em> by {{ site.author.name }}</li>
+      <li>Relative topics may include: {% for tag in project.tags %} <a href="/tags#{{ tag }}" class="tag">{{ tag }}</a> {% endfor %}</li>
+    </ul>
+  </li>
+{% endfor %}
+</ul>
+</div>
+
+<!-- iterate through all categories on the site --> 
+{% for catitem in site.categories %} 
+  <!-- for each tag, create an anchor by using the tag name as an id --> 
+  <div id="{{ catitem[0] }}">  
+    <h3> {{ catitem[0] }} </h3>  <!-- for create a heading --> 
+
+    <ul> <!-- create the list of posts -->
+      <!-- iterate through all the posts on the site --> 
+      {% for project in site.projects %} 
+        <!-- list only those which contain the current tag --> 
+        {% if project.categories contains catitem[0] %} 
+            <li>
+              <a href="{{ project.url }}">{{ project.title }}</a>
+            </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+{% endfor %}
+
+<!-- iterate through all tags on the projects category --> 
+{% for tagitem in site.projects.tags %} 
+  <!-- for each tag, create an anchor by using the tag name as an id --> 
+  <div id="{{ tagitem[0] }}">  
+    <h3> {{ tagitem[0] }} </h3>  <!-- for create a heading --> 
+
+    <ul> <!-- create the list of posts -->
+      <!-- iterate through all the posts on the site --> 
+      {% for project in site.projects %} 
+        <!-- list only those which contain the current tag --> 
+        {% if project.tags contains tagitem[0] %} 
+            <li>
+              <a href="{{ project.url }}">{{ project.title }}</a>
+            </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+{% endfor %}

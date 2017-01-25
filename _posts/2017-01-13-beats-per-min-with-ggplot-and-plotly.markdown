@@ -2,8 +2,7 @@
 layout: web
 title: "Beats Per Min with ggplot and Plotly"
 date: "2017-01-13 06:56:00 -0800"
-projects: Data
-categories: Data
+categories: Data Analytics
 tags: [R, ggplot, plotly, Dashboard, Interactive, Data, plot, exploratory]
 ---
 

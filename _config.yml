@@ -29,6 +29,7 @@ collections:
     projects:
       output: true
       permalink: /projects/:title.:output_ext
+      author: {{ site.aauthor.name  }}
 
 
 defaults:

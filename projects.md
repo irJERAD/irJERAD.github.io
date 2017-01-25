@@ -1,5 +1,5 @@
 ---
-layout: projects
+layout: project
 title: Projects
-permalink: /projectsCollection/
+permalink: /projects/
 ---
