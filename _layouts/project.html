@@ -23,7 +23,7 @@ layout: default
 </ul>
 </div>
 
-<!-- By CATEGORY -->
+            <!-- By CATEGORY -->
 <!-- iterate through all categories in Projects collection --> 
 {% for catitem in site.projects.categories %} 
   <!-- for each tag, create an anchor by using the tag name as an id --> 
@@ -44,7 +44,7 @@ layout: default
   </div>
 {% endfor %}
 
-
+            <!-- By Tag -->
 <!-- iterate through each tags on a projects and list associated projects --> 
 <h2>Projects by Tag</h2>
 <!-- Join all tags from all project pages into a single project-tags list -->
@@ -70,6 +70,7 @@ layout: default
 {% endfor %}
 
 
+            <!-- All Project Tags -->
 <!-- Grab All tages used in Projects and create links to their pages -->
 <h2>Project Tags:</h2>
 <div class="tags"> 
