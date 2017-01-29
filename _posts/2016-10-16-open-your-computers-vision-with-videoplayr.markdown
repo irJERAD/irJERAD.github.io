@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Open Your Computer's Vision with videoplayR"
-date: "2016-10-16 16:10:10 -0700"
+date: 2016-10-16 16:10:10 -0700
 categories: How-To
 tags: [Computer Vision, videoplayR, R, OpenCV, OpenCV3, CRAN, Tutorial]
 ---
@@ -18,10 +18,12 @@ If you don't know any of this, fret-not, I hope to make this an easy to walk thr
 If you prefer MacPorts as your package manager I will add instructions for Port as well. Note, however, that I personally used and acquired all my hard earned lessons and battle scars managing OpenCV2.3 and OpenCV3 via Homebrew (after installing the OpenCV library **AND** correctly linking all the necessary paths, the R parts were a walk in the park - so maybe that says more about my choice of package management tool than the difficulty of this tutorial)
 
 
----
+{% comment sources %}
 Sources:
-[videoplayR vignette]: <http://rpubs.com/sjmgarnier/videoplayR> "Vignette written by author of videoplayR"  
+
+[videoplayR vignette]: <http://rpubs.com/sjmgarnier/videoplayR> "Vignette written by author of videoplayR"
 [videoplayR Github]: <https://github.com/swarm-lab/videoplayR> "Github for videoplayR package"
 
 [Homebrew]: <http://brew.sh> "Homebrew homepage"
 [devtools]: https://www.rstudio.com/products/rpackages/devtools/ "devtools RStudio about page"
+{% endcomment sources %}

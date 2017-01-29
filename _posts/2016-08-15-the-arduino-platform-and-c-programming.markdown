@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Arduino Platform and C Programming"
-date: "2016-08-15 03:54:56 -0700"
+date: 2016-08-15 03:54:56 -0700
 categories: Learning
 tags: [Learn, C, Arduino, Programming]
 ---

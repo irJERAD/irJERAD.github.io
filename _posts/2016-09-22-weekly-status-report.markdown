@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Weekly Status Report"
-date: "2016-09-22 06:51:34 -0700"
+date: 2016-09-22 06:51:34 -0700
 categories: Project
 tags: [R, rstats, Data, Science, Dashboard, Analytics, Digital Foundry, Project, Product, Docker, Shiny, ShinyDashboard]
 ---

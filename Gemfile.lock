@@ -202,9 +202,10 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-optional-front-matter (~> 0.1.2)
   jekyll-paginate
   jekyll-seo-tag
   json!
 
 BUNDLED WITH
-   1.13.7
+   1.14.3

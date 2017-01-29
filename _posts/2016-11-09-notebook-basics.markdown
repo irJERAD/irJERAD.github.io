@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Notebook Basics"
-date: "2016-11-09 19:37:42 -0800"
+date: 2016-11-09 19:37:42 -0800
 categories: [Cheat Cheat]
 tags: [Learn, Python, iPythong, Jupyter, Notebook, Lynda]
 ---
