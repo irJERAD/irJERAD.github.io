@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to Create a Custom Email Signature for Mail"
-date: "2016-06-27 10:54:23 -0700"
+date: 2016-06-27 10:54:23 -0700
 ---
 
 Personal email signatures are a great way to add a personal touch.
