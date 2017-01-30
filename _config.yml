@@ -28,11 +28,11 @@ TZ: America/Los_Angeles
 collections:
     projects:
       output: true
-      permalink: /projects/:title.:output_ext
+      permalink: /projects/:title:output_ext
       author: {{ site.author.name  }}
     educational_endeavors:
       output: true
-      permalink: /educational_endeavors/:title.:output_ext
+      permalink: /educational_endeavors/:title:output_ext
       author: {{ site.author.name  }}
 
 
