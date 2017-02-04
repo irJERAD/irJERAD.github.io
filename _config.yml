@@ -8,7 +8,7 @@ description: > # this means to ignore newlines until "baseurl:"
   taking census of the endless games of tic-tac-toe etched in my box.
 url: 'http://Jerad.xyz'
 baseurl: '/'
-# google_analytics: 'you-google-analytcs-ID'
+google_analytics: 'UA-91420291-1'
 disqus_shortname: 'jeradxyz'
 
 author:
