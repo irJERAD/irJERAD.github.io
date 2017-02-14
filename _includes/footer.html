@@ -13,5 +13,7 @@
 
   ga('create', '{{ site.google_analytics }}', 'auto');
   ga('send', 'pageview');
+  // set up user ID for Google Analytics R and Search Console R example
+  ga('set', 'userId', '{{ site.google_analytics }}'); // Set the user ID using signed-in user_id.
 </script>
 {% endif %}
