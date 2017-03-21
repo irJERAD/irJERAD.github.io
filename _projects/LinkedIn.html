@@ -1,0 +1,296 @@
+---
+layout: null
+title: "Brooklyn Vehicle Collision Deck"
+permalink: '/LinkedIn'
+tags: [R, Flexdashboard, Dashboard, ggplot2, plotly, Data, Analysis, Exploratory, Interactive, RStudio]
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reducing Brooklyn Accidents using Open Data</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="generator" content="pandoc" />
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <base target="_blank">
+
+  <script type="text/javascript">
+    var SLIDE_CONFIG = {
+      // Slide settings
+      settings: {
+                title: 'Reducing Brooklyn Accidents using Open Data',
+                        useBuilds: true,
+        usePrettify: true,
+        enableSlideAreas: true,
+        enableTouch: true,
+                        favIcon: 'slides-NYcollision_files/logo.png',
+              },
+
+      // Author information
+      presenters: [
+            {
+        name:  'Jerad Acosta' ,
+        company: '',
+        gplus: '',
+        twitter: '',
+        www: '',
+        github: ''
+      },
+            ]
+    };
+  </script>
+
+  <link href="slides-NYcollision_files/ioslides-13.5.1/fonts/fonts.css" rel="stylesheet" />
+  <link href="slides-NYcollision_files/ioslides-13.5.1/theme/css/default.css" rel="stylesheet" />
+  <link href="slides-NYcollision_files/ioslides-13.5.1/theme/css/phone.css" rel="stylesheet" />
+  <script src="slides-NYcollision_files/ioslides-13.5.1/js/modernizr.custom.45394.js"></script>
+  <script src="slides-NYcollision_files/ioslides-13.5.1/js/prettify/prettify.js"></script>
+  <script src="slides-NYcollision_files/ioslides-13.5.1/js/prettify/lang-r.js"></script>
+  <script src="slides-NYcollision_files/ioslides-13.5.1/js/prettify/lang-yaml.js"></script>
+  <script src="slides-NYcollision_files/ioslides-13.5.1/js/hammer.js"></script>
+  <script src="slides-NYcollision_files/ioslides-13.5.1/js/slide-controller.js"></script>
+  <script src="slides-NYcollision_files/ioslides-13.5.1/js/slide-deck.js"></script>
+
+  <style type="text/css">
+
+    b, strong {
+      font-weight: bold;
+    }
+
+    em {
+      font-style: italic;
+    }
+
+    slides > slide {
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+    }
+
+    .auto-fadein {
+      -webkit-transition: opacity 0.6s ease-in;
+      -webkit-transition-delay: 0.4s;
+      -moz-transition: opacity 0.6s ease-in 0.4s;
+      -o-transition: opacity 0.6s ease-in 0.4s;
+      transition: opacity 0.6s ease-in 0.4s;
+      opacity: 0;
+    }
+
+    slides > slide:not(.nobackground):before {
+      font-size: 12pt;
+      content: "";
+      position: absolute;
+      bottom: 20px;
+      left: 60px;
+      background: url(slides-NYcollision_files/logo.png) no-repeat 0 50%;
+      -webkit-background-size: 30px 30px;
+      -moz-background-size: 30px 30px;
+      -o-background-size: 30px 30px;
+      background-size: 30px 30px;
+      padding-left: 40px;
+      height: 30px;
+      line-height: 1.9;
+    }
+  </style>
+
+  <link rel="stylesheet" href="Rmd/slides.css" type="text/css" />
+
+</head>
+
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+  <slide class="title-slide segue nobackground">
+        <aside class="gdbar"><img src="slides-NYcollision_files/logo.png"></aside>
+        <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein">
+      <h1 data-config-title><!-- populated from slide_config.json --></h1>
+      <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+      <p data-config-presenter><!-- populated from slide_config.json --></p>
+            <p style="margin-top: 6px; margin-left: -2px;">March 2017</p>
+          </hgroup>
+  </slide>
+
+<slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>Prepared for review by LinkedIn Analytics </h2><h3> Created by Jerad Acosta</h3></hgroup><article  id="prepared-for-review-by-linkedin-analytics-created-by-jerad-acosta" class="smaller ">
+
+</article></slide><slide class=''><hgroup><h2>Presentation Keys</h2></hgroup><article  id="presentation-keys" class="smaller ">
+
+<p>Use:</p>
+
+<ul>
+<li><code>-&gt;</code> next slide<br/></li>
+<li><code>&lt;-</code> previous slide<br/></li>
+<li><code>&#39;f&#39;</code> to enable fullscreen mode<br/></li>
+<li><code>&#39;w&#39;</code> to toggle widescreen mode<br/></li>
+<li><code>&#39;o&#39;</code> to enable overview mode</li>
+</ul>
+
+<p>For context and support please <a href='http://jerad.xyz/projects/collision-data-exploration.html' title=''>see the companion notebook</a> to see the code and process.</p>
+
+<p>Use the <a href='https://github.com/irJERAD/nyc-mv-collisions' title=''>Github repo</a> for a copy of the source code.</p>
+
+<p><a href='https://github.com/irJERAD/nyc-mv-collisions/blob/master/ioslides-NYcollision-results.Rmd' title=''>Click Here</a> to see a copy of the code used to generate this presentation.</p>
+
+</article></slide><slide class=''><hgroup><h2>Goal</h2></hgroup><article  id="goal" class="smaller ">
+
+<p><strong>Reducing Accidents in Brooklyn</strong></p>
+
+<p>The analysis for this deck and the accompanying <a href='http://jerad.xyz/projects/flatly-float.html' title=''>Data Exploration R Notebook</a> and Dashboard was primarily generated from the NYC Open Data <a href='https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95' title=''>Vehicle Collision Data Set</a>.</p>
+
+<p><strong>Influential factors on this work include:</strong></p>
+
+<ul>
+<li>City Council Stake Holders
+
+<ul>
+<li>Can leverage their greatest impact in local law and policy (how can law and policy be used to reduce accidents in Brooklyn)<br/></li>
+</ul></li>
+<li>Identify factors correlated with accidents
+
+<ul>
+<li>Awareness can reduce incedent by assisting drivers in pursuing their own interest to keep themselves alive and whole<br/></li>
+</ul></li>
+<li>Understand The NYC Collosion Data
+
+<ul>
+<li>In the act of working with data an analyst can grow an empathy toward its tendencies
+
+<ul>
+<li>Maturing their intuition on the matter and adding to a now enhanced skillset for use on this problem as well as future works</li>
+</ul></li>
+</ul></li>
+</ul>
+
+</article></slide><slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>The Geography of Events Across NYC </h2><h3> A Visual Exploration&#8230;</h3></hgroup><article  id="the-geography-of-events-across-nyc-a-visual-exploration..." class="smaller ">
+
+<p>Glance at where accidents have been recorded across the five boroughs of New York City.</p>
+
+</article></slide><slide class=''><hgroup><h2></h2></hgroup><article  class="smaller">
+
+<iframe src="./Rmd/html_widgets/NYC-All-Crashes.html">
+
+</iframe>
+
+<p>hover for more info, zoom, (de)select Borough Categories</p>
+
+</article></slide><slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>Events Over Time</h2></hgroup><article  id="events-over-time" class="smaller ">
+
+<h3>
+
+Visualize number of accidents each hour of each weekday to:
+
+</h3>
+
+<div style="color: orange">
+<font size="6">
+
+<ul>
+
+<li>
+
+Visually search for patterns<br/>
+
+<ul>
+
+<li>
+
+Take advantage of priori knowledge (e.g. human nature toward a weekly schedule &amp; routine)
+
+</li>
+
+<li>
+
+People live, work and plan around a 7-day weekly schedule that has universal social influencers
+
+</li>
+
+<li>
+
+For example: a 9-5 workschedule or Weekends
+
+</li>
+
+</ul>
+
+</li>
+
+</ul>
+
+<p></font></p></div>
+
+</article></slide><slide class=''><hgroup><h2>Hours of the Week</h2></hgroup><article  id="hours-of-the-week" class="smaller smaller">
+
+<div style="text-alight:center">
+<p>Look for daily and weekly patterns in the data <iframe src="./Rmd/html_widgets/hourXday.html" style="height:450px; width:100%"></iframe> Significant increase in events on weekdays vs weekend with the greatest number of incident aligning with commute times.</p></div>
+
+</article></slide><slide class=''><hgroup><h2></h2></hgroup><article  class="smaller">
+
+<iframe src="./Rmd/html_widgets/3dhourXday.html" style="height:450px; width:100%">
+
+</iframe>
+
+</article></slide><slide class=''><hgroup><h2>Exploring Weather</h2></hgroup><article  id="exploring-weather" class="smaller ">
+
+<p>Weather Data was collected from the NOAA API.<br/>Data on snow and rain fall was merged with accident data to search for what seems like an intuitive correlation.<br/>Oddly, no significant correlation was found; However, upon inspecting the data seasonally as was done for the weather, a pattern becomes clear. The pattern is across time and appears to be annual, consistently growing from 2012 to 2015 in all seasons and through to 2016 in Spring and Winter.<br/>Thus, we can support the premis of exploring extreme options with regard to vehicle safety in Brooklyn - including legal and campaigning.</p>
+
+</article></slide><slide class=''><hgroup><h2></h2></hgroup><article  class="smaller">
+
+<iframe src="./Rmd/html_widgets/seasonal.html" style="height:450px; width:100%">
+
+</iframe>
+
+</article></slide><slide class=''><hgroup><h2>Continue The Journey </h2><h3> Further Your Exploration</h3></hgroup><article  id="continue-the-journey-further-your-exploration" class="smaller ">
+
+<div class="columns-2">
+<p>Checkout the code to this deck, the exploratory work and tutorial used to create it, and an interactive dashboard to further explore the dataset<br/><br> <br> <br> Click my profile image to see more of my projects on my website: <a href='http://Jerad.xyz' title=''>Jerad.xyz</a><br/><br> <br> <br> <br> Connect with me on LinkedIn<br/><br> <br> <br> <br> <br> <a href="https://github.com/irJERAD/nyc-mv-collisions"><img src="images/github-b.png"></a><br/><br> <a href="http://Jerad.xyz/projects/"><img src="images/jeradXYZ.png"></a><br/><br> <a href="https://LinkedIn.com/in/JeradAcosta"><img src="images/ConnectwMe.png"></a></p></div>
+
+</article></slide><slide class=''><hgroup><h2></h2></hgroup><article  class="smaller">
+
+<p>For context and support please <a href='http://jerad.xyz/projects/collision-data-exploration.html' title=''>see the companion notebook</a> to see the code and process.</p>
+
+<p>Use the <a href='https://github.com/irJERAD/nyc-mv-collisions' title=''>Github repo</a> for a copy of the source code.</p>
+
+<p><a href='https://github.com/irJERAD/nyc-mv-collisions/blob/master/ioslides-NYcollision-results.Rmd' title=''>Click Here</a> to see a copy of the code used to generate this presentation.</p></article></slide>
+
+
+  <slide class="backdrop"></slide>
+
+</slides>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+<!-- map slide visiblity events into shiny -->
+<script>
+  (function() {
+    if (window.jQuery) {
+       window.jQuery(document).on('slideleave', function(e) {
+         window.jQuery(e.target).trigger('hidden');
+      });
+       window.jQuery(document).on('slideenter', function(e) {
+         window.jQuery(e.target).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+</body>
+</html>
