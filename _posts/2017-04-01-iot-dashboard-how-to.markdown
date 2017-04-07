@@ -4,7 +4,6 @@ title: "IoT Dashboard | How To Physically Interface with the Connected World"
 date: "2017-04-01 00:47:11 -0700"
 ---
 
-## The Why  
 
 Call me old fashioned, but I find the pressing of a button to initiate a flurry of web requests and API calls along wireless interfaces, filling websockets or flying down an HTTP streams, possess some ephemeral quality that is immeasurably more satisfying than automated predictive measures taken assure our constant consumption carries on with a negligible amount of consideration, contemplation and consideration; thus pruning away at the self's essential prerogative to preserve and maintain.  
 
