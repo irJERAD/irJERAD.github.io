@@ -2,6 +2,7 @@
 layout: post
 Author: Jerad Acosta
 title: "VPN Setup on Kali Pi"
+date: "2017-04-05"
 tags: [Linux, Kali, Raspberry Pi, IoT, Security, VPN]
 category: Tutorial
 - - -
