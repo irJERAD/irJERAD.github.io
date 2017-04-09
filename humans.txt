@@ -11,4 +11,4 @@ Name: Mom
 Last update: 2016/06/27
 Standards: HTML5, CSS3
 Components: Jekyll
-Software: Atom, Sketch
+Software: Atom, Sketch, RStudio, PlatformIO, muut

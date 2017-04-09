@@ -1,11 +1,11 @@
 ---
-layout: null
-title: Projects
-permalink: /StudyGroups/
+layout: blank
+title: Online Forums for Study Groups and Reference
+permalink: /studygroups/
+category: educational_endeavors
+tags: [Education, Study Groups, Learning Courser]
 ---
 
-<!DOCTYPE html>
-<html>
 <head>
 <title>jeradxyz</title>
 <meta charset="UTF-8">
@@ -16,4 +16,3 @@ permalink: /StudyGroups/
 <a class="muut" href="https://muut.com/i/jeradxyz">jeradxyz</a>
 <script src="//cdn.muut.com/1/moot.min.js"></script>
 </body>
-</html>
