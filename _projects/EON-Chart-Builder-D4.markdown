@@ -1,7 +1,7 @@
 ---
 layout: post
 title: EON Chart Builder | by PubNub
-date: jekyll_insert_date
+date: "2017-04-09"
 categories: Blog
 tags: [IoT, Sensors, Connected Devices]
 ---
@@ -33,8 +33,8 @@ I would really love to build my own dashboard in R and have it displayed here; e
 var __eon_pubnub = new PubNub({
   subscribeKey: "sub-c-bd9ab0d6-6e02-11e5-8d3b-0619f8945a4f"
 });
-var __eon_cols = ["Austin","New York","San Francisco","Portland"]; 
-var __eon_labels = {}; 
+var __eon_cols = ["Austin","New York","San Francisco","Portland"];
+var __eon_labels = {};
 chart = eon.chart({
   pubnub: __eon_pubnub,
   channels: ["test-channel-0.7671745544564044"],
@@ -61,10 +61,10 @@ chart = eon.chart({
     },
     grid: {
       x: {
-        show: false 
+        show: false
       },
       y: {
-        show: false 
+        show: false
       }
     },
     tooltip: {
@@ -88,3 +88,5 @@ chart = eon.chart({
   }
 });
 </script>
+
+and so begins my quest for the ultimate IoT dashboard... stay tuned 
