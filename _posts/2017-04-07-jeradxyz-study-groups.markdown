@@ -9,7 +9,7 @@ I love learning - do it all the time - this site started as a educationally orie
 
 I'm constantly creating educational resources and tools
 
-Please go [HERE](http://jerad.xyz/StudyGroups) to use this forum on a dedicated page as it was indented to be experienced.
+Please go [HERE](http://jerad.xyz/studygroups) to use this forum on a dedicated page as it was indented to be experienced.
 
 <a class="muut" href="https://muut.com/i/jeradxyz">jeradxyz</a>
 <script src="//cdn.muut.com/1/moot.min.js"></script>
