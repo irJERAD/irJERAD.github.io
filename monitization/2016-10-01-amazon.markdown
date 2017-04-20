@@ -5,6 +5,17 @@ date: "2016-10-01 20:01:12 -0700"
 permalink: /amazon/
 ---
 
+### Glasses
+
+<div>
+	<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=wwwjeradacost-20&marketplace=amazon&region=US&placement=B0199UAKTM&asins=B0199UAKTM&linkId=29be85f2324209e0c9faabab0a0e1596&show_border=true&link_opens_in_new_window=true"></iframe>
+
+
+	<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=je0854-20&marketplace=amazon&region=US&placement=B01MSHSTUE&asins=B01MSHSTUE&linkId=a6e85e42c66578b0d83dfd0b2dcf3fd7&show_border=true&link_opens_in_new_window=true"></iframe>
+</div>
+
+Much better prices but still no ![](/images/super-1layout-ekk_1_21 copy.jpg)
+
 Amazon is awesome. We already spend a ton of money there. Help me pay for this site by clicking this link each time before you begin an amazon shopping spree.  
 **NOTE:** This will not add anything to the prices on amazon. It simply gives me credit for taking you there (rather than those creepy adds that always know when I need more toilet paper - _and I don't even order toilet paper online_)  
 
