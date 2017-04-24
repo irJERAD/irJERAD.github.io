@@ -1,0 +1,11 @@
+# examye-megan.jpg
+      alt: image one
+    - src: /images/mom/mom-smash-jerad.jpg
+      alt: image two
+    - src: /images/mom/on-top-theworld.jpg
+      alt: image three
+    - src: /images/mom/party-like-a-penguin.jpg
+      alt: image four
+  settings:
+    height: "'auto'"
+    effect: "'fade'"

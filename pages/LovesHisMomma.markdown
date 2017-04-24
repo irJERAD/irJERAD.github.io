@@ -3,17 +3,16 @@ layout: post
 title: "Mama's boy"
 date: "2016-10-01 20:01:12 -0700"
 permalink: /LovesHisMomma/
+image_sliders:
+  - mom_slider
 ---
+
+{% include slider.html selector="mom_slider" %}
 
 ## Why my mom is better than yours
 
 She makes things important, even when I'm just trying to slide by - _let's not read into this now eh?_  
-
-![](/images/mom/20151211_112146.jpg)
-
-
-She's always on-gaurte <-- see what I did there?  
-
+                                                                                                                                                                                                                                                                                                            ZZZ
 ![](/images/mom/215050_748891071144_18322331_n.jpg)
 
 Just incase I try to jump into something too early and get josted by a simple parry
