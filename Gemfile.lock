@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/flori/json.git
+  remote: https://github.com/flori/json.git
   revision: 4cf6c6270f52888997ec1b626b9f557db4f26f2e
   branch: v1.8.5
   specs:
@@ -192,7 +192,7 @@ GEM
     thread_safe (0.3.6)
     typhoeus (0.8.0)
       ethon (>= 0.8.0)
-    tzinfo (1.2.3)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     unicode-display_width (1.1.3)
 
